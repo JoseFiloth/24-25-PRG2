@@ -1,4 +1,4 @@
-package entregas.FilothJose.Reto001;
+package entregas.filothJose.Reto001;
 import java.util.Scanner;
 
 public class EscalaMayor {
@@ -65,7 +65,7 @@ public class EscalaMayor {
 
     private static void imprimirArray(String[] array) {
         for (String nota : array) {
-            System.out.print("[" + nota nota + "] / ");
+            System.out.print("[" + nota  + "] / ");
         }
         System.out.println();
     }

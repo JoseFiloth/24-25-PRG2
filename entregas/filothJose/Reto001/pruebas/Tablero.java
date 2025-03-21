@@ -1,26 +1,38 @@
 package entregas.filothJose.Reto001.pruebas;
 
-public class Tablero {
+class Tablero {
 
-   private char [][] casillas;
+  private char[][] casillas;
+  
+  public Tablero() {
+      casillas = new char[3][3];
 
-   public Tablero(){
- 
-   casillas = new char[3][3];
-   for(int i = 0; i < )  
+     for (int i = 0; i < casillas.length; i++) {
+          for (int j = 0; j < casillas[i].length; j++) {
+              casillas[i][j] = '_';
+          }
+      }
+  }
 
-   }
-   
-    public void mostrar() {
-      for(int i = 0; i < casillas.length; i++){}
-    }
+  public void mostrar() {
+      for (int i = 0; i < casillas.length; i++) {
+          for (int j = 0; j < casillas[i].length; j++) {
+              System.out.print(" " + casillas[i][j]);
+          }
+          System.out.println();
+      }
+  }
+
 
     public boolean hayTresEnRaya() {
         
+
+
     }
 
     public boolean estaCompleto(Jugador jugador) {
        
     }
 
-}
+  }
+

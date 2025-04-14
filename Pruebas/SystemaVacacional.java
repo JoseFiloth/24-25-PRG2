@@ -11,8 +11,8 @@ class SystemaVacacional{
         System.out.println("**********************************");
         System.out.println("*Bienvenido al sistema vacacional*");
         System.out.println("**********************************");
-        System.out.println(""):
-        System.out.println(""):
+        System.out.println("");
+        System.out.println("");
 
         System.out.print("Ingrese su Nombre: ");
         nombre = sc.nextLine();

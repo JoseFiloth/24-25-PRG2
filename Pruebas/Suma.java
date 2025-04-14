@@ -1,4 +1,3 @@
-
 class Suma {
 
     public static void main(String[] args) {
@@ -30,7 +29,6 @@ class Suma {
                 System.out.println("Opcion no valida, por favor verifique su opcion.");
                 break;
 
-        }
-
+        } 
     }
 }
